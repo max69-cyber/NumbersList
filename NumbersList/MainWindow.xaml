@@ -11,7 +11,7 @@
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <ListView Grid.Row="0" Name="numbersList" Margin="0,50,0,0" HorizontalAlignment="Center" >
+        <ListView Grid.Row="0" Name="numbersList" Margin="0,50,0,0" HorizontalAlignment="Center">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="300" />
@@ -19,9 +19,9 @@
             </ListView.View>
         </ListView>
         <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Click="AddElement" Grid.Row="1" Content="Add" Height="42" Width="120" Margin="0 0 15 0" />
-            <Button Click="DeleteElement" Grid.Row="1" Content="Delete" Height="42" Width="120" Margin="15 0 15 0" />
-            <Button Click="ClearList" Grid.Row="1" Content="Clear" Height="42" Width="120" Margin="15 0 0 0" />
+            <Button Click="AddElement" Content="Add" Height="42" Width="120" Margin="0 0 15 0" />
+            <Button Click="DeleteElement" Content="Delete" Height="42" Width="120" Margin="15 0 15 0" />
+            <Button Click="ClearList" Content="Clear" Height="42" Width="120" Margin="15 0 0 0" />
         </StackPanel>
     </Grid>
 </Window>
